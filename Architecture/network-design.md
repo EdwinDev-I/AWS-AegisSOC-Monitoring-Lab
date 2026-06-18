@@ -272,7 +272,7 @@ Pending
 
 Traffic Mirroring resources were created successfully.
 
-However, Suricata was still mainly observing traffic directly reaching its own EC2 interface rather than the expected mirrored traffic.
+⚠️However, Suricata was still mainly observing traffic directly reaching its own EC2 interface rather than the expected mirrored traffic.
 
 Further troubleshooting required:
 - Verify ENI compatibility
