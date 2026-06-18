@@ -261,12 +261,12 @@ Current Implementation Status
 
 Completed
 
-✅ Wazuh Manager deployed
-✅ Windows Server connected with Wazuh Agent
-✅ Sysmon installed on Windows
-✅ Suricata installed on Ubuntu
-✅ Suricata logging enabled
-✅ VirusTotal integration configured
+- Wazuh Manager deployed
+- Windows Server connected with Wazuh Agent
+- Sysmon installed on Windows
+- Suricata installed on Ubuntu
+- Suricata logging enabled
+- VirusTotal integration configured
 
 Pending
 
