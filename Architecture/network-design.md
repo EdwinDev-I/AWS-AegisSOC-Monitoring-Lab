@@ -197,10 +197,13 @@ Purpose:
 
 - Capture mirrored packets
 - Forward traffic copies to the sensor
+- A traffic filter that allows all lab traffic, both in & out.
 
 Screenshot:
 
 ![Traffic Mirror Filter](./traffic-mirror-filter1.png)
+
+
 ![Traffic Mirror Filter](./traffic-mirror-filter2.png)
 
 ### Target
@@ -230,6 +233,8 @@ Configuration included:
 Screenshot:
 
 ![Traffic Mirror Session](./mirror-session-1.png)
+
+
 ![Traffic Mirror Session](./mirror-session-2.png)
 
 ## Verification
