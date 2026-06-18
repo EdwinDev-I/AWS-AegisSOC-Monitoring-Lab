@@ -1,4 +1,4 @@
-# SOC Detection Lab - Wazuh, Sysmon & Suricata
+# 🛡️SOC Detection Lab - Wazuh, Sysmon & Suricata
 
 ## Overview
 
