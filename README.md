@@ -199,3 +199,128 @@ Example:
 ```
 hydra -l Administrator -P passwords.txt rdp:// TARGET_IP
 ```
+
+Detected by:
+
+- Windows Security Logs
+- Wazuh rules
+- Authentication monitoring
+
+
+MITRE:
+
+T1110 - Brute Force
+
+
+---
+
+## 2. Network Reconnaissance
+
+
+Tool:
+
+Nmap
+
+
+Command:
+
+```
+nmap -sS TARGET_IP
+```
+Detected by:
+
+- Suricata
+- Network logs
+
+
+MITRE:
+
+T1046 - Network Service Discovery
+
+
+---
+
+## 3. PowerShell Activity
+
+
+Command:
+
+```
+powershell.exe
+```
+
+Detected by:
+
+- Sysmon
+- Wazuh
+
+
+MITRE:
+
+T1059.001 - PowerShell
+
+
+---
+
+# Detection Flow
+
+
+Attack
+
+↓
+
+Kali Linux
+
+↓
+
+Windows/Linux Endpoint
+
+↓
+
+Wazuh Agent / Suricata
+
+↓
+
+Wazuh Manager
+
+↓
+
+Dashboard Alert
+
+↓
+
+Investigation
+
+↓
+
+Response
+
+
+# Skills Demonstrated
+
+- SOC monitoring
+- SIEM deployment
+- Threat detection
+- Log analysis
+- Incident response
+- MITRE ATT&CK mapping
+- Cloud security
+
+
+# Repository Contents
+
+This repository contains:
+
+- Installation guides
+- Configurations
+- Attack simulations
+- Detection examples
+- Investigation notes
+- Incident response playbook
+
+
+## Incident Response Documentation
+
+The complete incident response workflow is available here:
+
+Incident-Response-Playbook.md
