@@ -27,3 +27,5 @@ Restart the agent:
 ```
 sudo systemctl restart wazuh-agent
 ```
+
+⚠️Note: Even after configuration the suricata sensor may not read the correct logs as it's hosted on AWS to Trobleshoot this I created a guide to do this in [Architecture](Architecture/architecture-diagram.md)
