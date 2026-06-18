@@ -323,4 +323,4 @@ This repository contains:
 
 The complete incident response workflow is available here:
 
-Incident-Response-Playbook.md
+[Incident Response Playbook](./Incident-Response-Playbook.md)
