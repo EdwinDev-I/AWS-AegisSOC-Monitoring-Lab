@@ -16,9 +16,9 @@
 - Create/download a key paire(.pem)
 - Configure Security Group rules:
   Allow: 
-  | Port | Purpose |
+| Port | Purpose |
 |---|---|
-| 22  | SSH |
+| 22 | SSH |
 | 1514 TCP/UDP | Wazuh agent communication |
 | 1515 TCP | Agent enrollment |
 | 443 | Dashboard HTTPS |
