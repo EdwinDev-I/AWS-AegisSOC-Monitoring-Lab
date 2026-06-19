@@ -15,4 +15,13 @@
   - Production: larger depending on endpoints
 - Create/download a key paire(.pem)
 - Configure Security Group rules:
-  
+  Allow: 
+  | Port | Purpose |
+|---|---|
+| 22  | SSH |
+| 1514 TCP/UDP | Wazuh agent communication |
+| 1515 TCP | Agent enrollment |
+| 443 | Dashboard HTTPS |
+| 9200 | Indexer API (optional/admin) |
+
+Restrict SSH to your IP if possible.
