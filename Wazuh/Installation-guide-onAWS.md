@@ -15,7 +15,8 @@
   - Production: larger depending on endpoints
 - Create/download a key paire(.pem)
 - Configure Security Group rules:
-  Allow: 
+  Allow:
+  
 | Port | Purpose |
 |---|---|
 | 22 | SSH |
@@ -24,11 +25,6 @@
 | 443 | Dashboard HTTPS |
 | 9200 | Indexer API (optional/admin) |
 
+---
+
 Restrict SSH to your IP if possible.
-| Component | Description |
-|---|---|
-| AWS Cloud | Hosts security monitoring infrastructure |
-| Wazuh Manager | Central SIEM and alert analysis platform |
-| Windows Server | Endpoint monitored with Wazuh Agent + Sysmon |
-| Ubuntu Sensor | Network monitoring with Suricata |
-| Kali Linux | Attack simulation environment |
