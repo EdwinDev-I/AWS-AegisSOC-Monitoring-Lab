@@ -203,4 +203,4 @@ Check:
 ```
 Wazuh Dashboard → Security-events
 ```
-![Wazuh-Dashboard](./Wazuh-Brave 6_15_2026 1_11_40 PM.png)
+![Wazuh-Dashboard](./Wazuh-Dashboard.png)
