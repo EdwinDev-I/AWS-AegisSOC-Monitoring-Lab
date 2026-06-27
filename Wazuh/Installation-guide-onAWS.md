@@ -203,3 +203,4 @@ Check:
 ```
 Wazuh Dashboard → Security-events
 ```
+![Wazuh-Dashboard](./Wazuh-Brave 6_15_)
