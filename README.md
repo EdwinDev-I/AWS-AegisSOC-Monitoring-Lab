@@ -149,12 +149,15 @@ Collected:
 - Protocol activity
 - IDS alerts
 
-
 Logs:
 
 ```
 /var/log/suricata/eve.json
 ```
+Note: For Suricata
+Traffic Mirror: Working ✅
+Attack Detection: Partial ⚠️
+
 ---
 
 ## VirusTotal Integration
