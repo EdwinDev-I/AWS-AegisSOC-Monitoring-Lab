@@ -284,6 +284,8 @@ Current implementation:
 Current limitation:
 Suricata is successfully receiving mirrored AWS network traffic, but some simulated attack traffic from the external Kali Linux environment is not yet being detected as expected.
 
+![Packet-Mirroring](./Packet-capture.png)
+
 The next troubleshooting steps include:
 - Verifying Suricata interface capture configuration
 - Validating VPC routing and Security Group rules
