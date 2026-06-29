@@ -35,11 +35,11 @@ Restrict SSH to your IP if possible.
 
 ### Connect To The Server
 
-```
+```bash
 ssh -i wazuh-key.pem ubuntu@<EC2_PUBLIC_IP>
 ```
 update packages:
-```
+```bash
 sudo apt update && sudo apt upgrade -y
 ```
 
@@ -49,11 +49,11 @@ sudo apt update && sudo apt upgrade -y
 ### Install Wazuh Manager
 
 Download the  Wazuh Manager installation script:
-```
+```bash
 curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh
 ```
 Run the installer: 
-```
+```bash
 sudo bash wazuh-install.sh -a
 ```
 The -a installs the complete stack:
@@ -73,7 +73,7 @@ The installer outputs:
 Save them.
 
 You can also check:
-```
+```bash
 sudo cat wazuh-passwords.txt
 ```
 
@@ -83,16 +83,16 @@ sudo cat wazuh-passwords.txt
 ### Verify Wazuh services 
 
 check:
-```
+```bash
 sudo systemctl status wazuh-manager
 ```
 Also:
-```
+```bash
 sudo systemctl status wazuh-indexer
 sudo systemctl status wazuh-dashboard
 ```
 All should show:
-```
+```bash
 active (running)
 ```
 
@@ -103,7 +103,7 @@ active (running)
 ### Access the Dashboard
 
 open:
-```
+```bash
 https://<EC2_PUBLIC_IP>
 ```
 Accept the certificate warning.
@@ -123,7 +123,7 @@ Password: <generated password>
 Windows-agent example:
 
 In Wazuh Dashboard:
-```
+```yaml
 Agent → Deploy new agent
 ```
 chose:
@@ -137,7 +137,7 @@ Enter:
 It generates installation commands:
 
 Example:
-```
+```bash
 Invoke-WebRequest -Uri https://packages.wazuh.com/... -OutFile wazuh.msi
 msiexec.exe /i wazuh.msi /q WAZUH_MANAGER="YOUR_EC2_IP"
 ```
@@ -153,7 +153,7 @@ NET Start Wazuh
 ### Comfirm Agent Connection
 
 On Manger:
-```
+```bash
 sudo /var/ossec/bin/agent_control -lc
 ```
 You should see:
@@ -194,13 +194,13 @@ sudo systemctl restart wazuh-manager
 On windows agent:
 
 Create a test file:
-```
+```bash
 echo test > C:\test.txt
 ```
 or trigger failed logins.
 
 Check:
-```
+```yaml
 Wazuh Dashboard → Security-events
 ```
 ![Wazuh-Dashboard](./Image/Wazuh-Dashboard.png)
