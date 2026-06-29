@@ -1,4 +1,4 @@
-# Suricata + AWS Traffic Mirroring Troubleshooting Guide
+# 🪛🔧🛠️Suricata + AWS Traffic Mirroring Troubleshooting Guide
 
 ## Project Status Update
 
@@ -27,3 +27,70 @@ Resolved:
 ---
 
 # Final Architecture
+
+```
+ Kali Linux
+ (Attack Simulation)
+   |
+   | RDP / SSH / Scan Traffic
+   |
+   v
+
+ Windows Server EC2
+ (Target Machine)
+   |
+   |
+   | AWS VPC Traffic Mirroring
+   | GRE over UDP 4789
+   |
+   v
+
+ Suricata IDS EC2
+ (Sensor)
+    |
+    |
+    +---- eve.json
+    |
+    +---- fast.log
+    |
+    v
+Wazuh Manager
+(SOC Dashboard)
+```
+
+---
+
+# Suricata Rule Loading Issue (Resolved)
+
+## Problem
+
+Suricata showed:
+
+Enabled: 0 rules
+
+and: 
+
+SC_ERR_NO_RULES(42) No rule files match
+
+## Cause
+
+Rules existed but Suricata was searching the wrong directory.
+
+Configuration:
+
+```
+default-rule-path: /var/lib/suricata/rules
+```
+
+but custom rules existed in:
+
+```
+etc/suricata/rules/
+```
+## Fix
+
+Copy rules:
+
+```bash
+sudo cp /etc/suricata/rules/custom.rules \
+/var/lib/suricata/rules/
