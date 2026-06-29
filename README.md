@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a cloud-based Security Operations Center (SOC) detection lab designed to simulate real-world cyber attacks, collect security telemetry, and investigate alerts using open-source security tools.
+> This project is a cloud-based Security Operations Center (SOC) detection lab designed to simulate real-world cyber attacks, collect security telemetry, and investigate alerts using open-source security tools.
 
 The lab demonstrates:
 
