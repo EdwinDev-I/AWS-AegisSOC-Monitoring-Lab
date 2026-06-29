@@ -328,6 +328,12 @@ The complete incident response workflow is available here:
 
 [Incident Response Playbook](./Incident-Response-Playbook.md)
 
+## Trouble Shooting Guide File
+
+Yep alot of issues was encounter while building this Lab, so here is a clear Troubleshooting Guide:
+
+[TroubleShooting-Guide](./Troubleshooting(Important-command).md)
+
 ## ⚠️ Disclaimer
 All experiments in this repository were conducted in a controlled lab environment for educational and research purposes only.
 No real systems or networks were targeted.
