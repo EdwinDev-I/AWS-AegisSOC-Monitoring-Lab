@@ -31,4 +31,4 @@ sudo systemctl status wazuh-agent
 ---
 ## Image Example:
 
-![image](/Image/Clear-incident.png)
+![image](./Image/Clear-incident.png)
