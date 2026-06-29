@@ -3,7 +3,7 @@
 
 ## Overview
 
-This document explains the network architecture used for the SOC detection lab.
+> This document explains the network architecture used for the SOC detection lab.
 
 The lab simulates a real-world security monitoring environment using AWS infrastructure, endpoint monitoring, network detection, and attack simulation.
 
@@ -51,7 +51,7 @@ Collect endpoint telemetry:
 
 
 Monitoring flow:
-```
+```yaml
 Windows Server
 |
 |
@@ -87,12 +87,12 @@ ens5
 ```
 Log location:
 
-```
+```bash
 /var/log/suricata/eve.json
 ```
 
 Traffic flow:
-```
+```yaml
 Network Traffic
 |
 |
@@ -128,12 +128,12 @@ Examples:
 
 Network scanning:
 
-```
-nmap -sS <target-ip>
+```bash
+ nmap -sS <target-ip>
 ```
 Brute force testing:
-```
-hydra -l username -P passwords.txt ssh://traget-ip
+```bash
+ hydra -l username -P passwords.txt ssh://traget-ip
 ```
 
 Kali Linux
@@ -163,7 +163,7 @@ AWS Traffic Mirroring was configured to allow the Suricata sensor to inspect tra
 The goal was to mirror network traffic from the monitored instances and forward copies of packets to the Suricata monitoring instance.
 
 Traffic Mirroring architecture:
-```
+```yaml
 Kali Linux (Attacker)
         |
         | Attack traffic
@@ -235,19 +235,19 @@ Screenshot:
 
 Traffic capture was tested on the Suricata sensor using:
 
-```
-sudo tcpdump -i ens5
+```bash
+ sudo tcpdump -i ens5
 ```
 
 Suricata interface:
 
-```
+```bash
 interface: ens5
 ```
 
 Suricata log location:
 
-```
+```bash
 /var/log/suricata/eve.json
 ```
 
@@ -321,7 +321,7 @@ Resolved:
 
 # Final Architecture
 
-```
+```yaml
  Kali Linux
  (Attack Simulation)
    |
