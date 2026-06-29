@@ -286,12 +286,11 @@ sudo tail -f /var/ossec/logs/archives/archives.json | grep suricata
 ✅ Target ENI configured  
 ✅ Suricata receives mirrored packets  
 ✅ Suricata detects RDP-related activity  
-✅ eve.json generates events  
+✅ eve.json generates events
+✅ Improve Suricata alert forwarding to Wazuh 
 
 ## Remaining Improvements
-
-⚠️ Tune detection rules for stronger brute-force identification  
-⚠️ Improve Suricata alert forwarding to Wazuh  
+   
 ⚠️ Add custom detection rules  
 ⚠️ Validate all attack scenarios
 
