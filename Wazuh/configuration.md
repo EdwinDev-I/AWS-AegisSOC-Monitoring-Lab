@@ -28,3 +28,7 @@ sudo systemctl restart wazuh-agent
 
 sudo systemctl status wazuh-agent
 ```
+---
+## Image Example:
+
+![image](Architecture/Image/Clear-incident.png)
