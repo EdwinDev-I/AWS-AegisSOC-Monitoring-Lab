@@ -4,7 +4,7 @@
 
 ## Overview
 
-This repository contains an Incident Response Playbook developed for a Security Operations Center (SOC) detection lab deployed in AWS.
+> This repository contains an Incident Response Playbook developed for a Security Operations Center (SOC) detection lab deployed in AWS.
 
 The lab demonstrates how security events are collected, detected, investigated, and responded to using open-source security monitoring tools.
 
@@ -45,7 +45,7 @@ All activities are performed in a controlled lab environment.
 ---
 
 # Data Flow
-```
+```yaml
 kali
 |
 |
@@ -136,8 +136,8 @@ Purpose:
 - IDS alert generation
 
 Logs:
-```
-/var/log/suricata/eve.json
+```bash
+ /var/log/suricata/eve.json
 ```
 Suricata helps detect:
 
@@ -152,7 +152,7 @@ Suricata helps detect:
 Threat intelligence enrichment.
 
 Workflow:
-```
+```yaml
 File Detected
 |
 |
@@ -208,8 +208,8 @@ Detection sources:
 
 
 MITRE ATT&CK:
-```
-T1110-Brute Force
+```bash
+ T1110-Brute Force
 ```
 ---
 
@@ -228,8 +228,8 @@ Detection sources:
 
 
 MITRE ATT&CK:
-```
-T1046-Network Service Discovery
+```bash
+ T1046-Network Service Discovery
 ```
 ---
 
@@ -246,8 +246,8 @@ Detection sources:
 
 
 MITRE ATT&CK:
-```
-T1059.001-PowerShell
+```bash
+ T1059.001-PowerShell
 ```
 ---
 
@@ -444,6 +444,6 @@ Planned enhancements:
 
 # ⚠️ Disclaimer
 
-This project is for educational and research purposes only.
-All attacks were simulated inside a controlled AWS lab environment.
-No unauthorized systems or networks were targeted.
+> This project is for educational and research purposes only.
+  All attacks were simulated inside a controlled AWS lab environment.
+  No unauthorized systems or networks were targeted.
