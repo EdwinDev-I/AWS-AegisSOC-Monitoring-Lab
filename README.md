@@ -151,8 +151,8 @@ Collected:
 
 Logs:
 
-```
-/var/log/suricata/eve.json
+```bash
+ /var/log/suricata/eve.json
 ```
 Note: For Suricata
 Traffic Mirror: Working ✅
@@ -199,8 +199,8 @@ Windows Server
 
 Example:
 
-```
-hydra -l Administrator -P passwords.txt rdp:// TARGET_IP
+```bash
+ hydra -l Administrator -P passwords.txt rdp:// TARGET_IP
 ```
 
 Detected by:
@@ -227,8 +227,8 @@ Nmap
 
 Command:
 
-```
-nmap -sS TARGET_IP
+```bash
+ nmap -sS TARGET_IP
 ```
 Detected by:
 
@@ -248,8 +248,8 @@ T1046 - Network Service Discovery
 
 Command:
 
-```
-powershell.exe
+```bash
+ powershell.exe
 ```
 
 Detected by:
@@ -335,5 +335,5 @@ Yep alot of issues was encounter while building this Lab, so here is a clear Tro
 [TroubleShooting-Guide](./Troubleshooting(Important-command).md)
 
 ## ⚠️ Disclaimer
-All experiments in this repository were conducted in a controlled lab environment for educational and research purposes only.
-No real systems or networks were targeted.
+> All experiments in this repository were conducted in a controlled lab environment for educational and research purposes only.
+  No real systems or networks were targeted.
