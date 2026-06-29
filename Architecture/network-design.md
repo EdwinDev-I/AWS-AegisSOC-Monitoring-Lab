@@ -195,10 +195,10 @@ Purpose:
 
 Screenshot:
 
-![Traffic Mirror Filter](./traffic-mirror-filter1.png)
+![Traffic Mirror Filter](./Image/traffic-mirror-filter1.png)
 
 
-![Traffic Mirror Filter](./traffic-mirror-filter2.png)
+![Traffic Mirror Filter](./Image/traffic-mirror-filter2.png)
 
 ### Target
 
@@ -211,7 +211,7 @@ Purpose:
 
 Screenshot:
 
-![Traffic Mirror Target](./target-mirror-1.png)
+![Traffic Mirror Target](./Image/target-mirror-1.png)
 
 ### Mirror Session
 
@@ -226,10 +226,10 @@ Configuration included:
 
 Screenshot:
 
-![Traffic Mirror Session](./mirror-session-1.png)
+![Traffic Mirror Session](./Image/mirror-session-1.png)
 
 
-![Traffic Mirror Session](./mirror-session-2.png)
+![Traffic Mirror Session](./Image/mirror-session-2.png)
 
 ## Verification
 
@@ -284,7 +284,7 @@ Current implementation:
 Current limitation:
 Suricata is successfully receiving mirrored AWS network traffic, but some simulated attack traffic from the external Kali Linux environment is not yet being detected as expected.
 
-![Packet-Mirroring](./Packet-capture.png)
+![Packet-Mirroring](./Image/Packet-capture.png)
 
 The next troubleshooting steps include:
 - Verifying Suricata interface capture configuration
