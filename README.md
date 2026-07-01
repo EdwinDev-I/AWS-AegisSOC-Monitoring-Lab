@@ -274,36 +274,37 @@ T1059.001 - PowerShell
 
 # Detection Flow
 
-
+```yaml
 Attack
 
-↓
+  ↓
 
 Kali Linux
 
-↓
+  ↓
 
 Windows/Linux Endpoint
 
-↓
+  ↓
 
 Wazuh Agent / Suricata
 
-↓
+  ↓
 
 Wazuh Manager
 
-↓
+  ↓
 
 Dashboard Alert
 
-↓
+  ↓
 
 Investigation
 
-↓
+  ↓
 
 Response
+```
 
 
 # Skills Demonstrated
@@ -340,6 +341,36 @@ The complete incident response workflow is available here:
 Yep alot of issues was encounter while building this Lab, so here is a clear Troubleshooting Guide:
 
 [TroubleShooting-Guide](./Troubleshooting(Important-command).md)
+
+## Repository Architecture:
+
+```
+AWS-AegisSOC-Monitoring-Lab/
+│
+├── README.md
+│
+├── Incidect-Response-Playbook.md
+│
+├── Troubleshooting(Important-command).md
+│
+├── Architecture/
+│   ├── Image  
+│   └── network-design.md
+│
+├── Suricata/
+│   ├── Installation.md
+│   └── configuration.xml
+│   
+│
+├── virustotal/
+│   ├── Image
+│   └── FIM-Malware-Detection.md
+│
+└── Wazuh/
+   ├── Image
+   ├── Installation-guide-onAWS.md
+   └── configuration.md
+```
 
 ## ⚠️ Disclaimer
 > All experiments in this repository were conducted in a controlled lab environment for educational and research purposes only.
