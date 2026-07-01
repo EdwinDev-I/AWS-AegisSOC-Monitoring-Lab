@@ -485,6 +485,20 @@ Validate:
   sudo suricata -T -c /etc/suricata/suricata.yaml
 ```
 
+## Current Status for VirusTotal & Sysmon Integration
+
+✅ Wazuh Agent connected  
+✅ File Integrity Monitoring working  
+✅ SHA256 extraction working  
+✅ VirusTotal API integration working  
+✅ Dashboard alerts working  
+
+## Not included
+
+Sysmon integration was tested but removed due to event forwarding issues.
+
+The project continues using Wazuh native FIM telemetry.
+
 ![Updated-Troubleshooting-image](Architecture/Image/Troubleshooting-image-completed-version.jpeg)
 
 ## Notes
