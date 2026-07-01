@@ -24,7 +24,7 @@ sudo ufw enable
    sudo ufw default allow outging
 
 ## Step4: Allow required service
- ```
+ ```bash
   sudo ufw allow 22/tcp
 
    sudo ufw allow 80/tcp
@@ -77,8 +77,9 @@ sudo ufw enable
    sudo nano /etc/suricata/suricata.yaml
 ```
 
-##then find section:
-```
+### then find section:
+
+```bash
    af-packect:
      - interface: eth0
 ```
@@ -93,4 +94,4 @@ sudo ufw enable
    sudo systemctl status suricata
 ```
 
-###it should be (running) now  😁
+### it should be (running) now  😁
