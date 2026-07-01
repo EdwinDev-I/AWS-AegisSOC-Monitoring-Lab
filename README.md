@@ -4,6 +4,12 @@
 
 > This project is a cloud-based Security Operations Center (SOC) detection lab designed to simulate real-world cyber attacks, collect security telemetry, and investigate alerts using open-source security tools.
 
+*Know More About AWS Penetration Test Before Starting This ProjecT*:
+
+<a href="https://aws.amazon.com/security/penetration-testing/">
+<img src="https://img.shields.io/badge/AWS-Penetration%20Testing-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white">
+</a>
+
 The lab demonstrates:
 
 - Endpoint monitoring
