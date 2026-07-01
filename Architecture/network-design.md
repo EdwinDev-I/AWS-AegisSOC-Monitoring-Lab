@@ -6,7 +6,7 @@
 
 The lab simulates a real-world security monitoring environment using AWS infrastructure, endpoint monitoring, network detection, and attack simulation.
 
-*Know More About AWS Penetration Test Before Starting This Projec*
+*Know More About AWS Penetration Test Before Starting This Project*
 <a href="https://aws.amazon.com/security/penetration-testing/">
 <img src="https://img.shields.io/badge/AWS-Penetration%20Testing-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white">
 </a>
