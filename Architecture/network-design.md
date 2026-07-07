@@ -309,6 +309,24 @@ Previously investigated issues:
 - Suricata rules were downloaded but showed `Enabled: 0 rules`.
 - `fast.log` was empty while `eve.json` was receiving events.
 
+### Symptoms
+- Traffic Mirroring session appeared healthy.
+- `tcpdump` showed little or no mirrored traffic.
+- Suricata generated no IDS alerts for attack simulations.
+
+### Root Cause
+The UDP port required for AWS Traffic Mirroring (VXLAN encapsulation) was not allowed by the security group/network configuration, preventing mirrored packets from reaching the Suricata sensor.
+
+### Resolution
+- Opened the required UDP port on the Suricata instance's security group.
+- Verified the Traffic Mirror target and session configuration.
+- Confirmed mirrored traffic using `tcpdump`.
+- Confirmed Suricata began generating alerts, which were successfully forwarded to Wazuh.
+
+### Result
+Traffic Mirroring and Suricata IDS monitoring functioned correctly after the networking issue was resolved.
+
+
 Resolved:
 - ✅ AWS Traffic Mirror source ENI verified
 - ✅ AWS Traffic Mirror target ENI verified
