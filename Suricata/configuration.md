@@ -8,7 +8,7 @@ Ubuntu 22.04
  [Installation-Suricata](Installation.md)
 
  ## Then Install Wazuh 
-  [Wazuh-Installtion-Giude](Wazuh/Installation-guide-onAWS.md)
+  [Wazuh-Installtion-Giude](./Wazuh/Installation-guide-onAWS.md)
 
  ## Configure Wazuh To Read Suricata Log
 ```
