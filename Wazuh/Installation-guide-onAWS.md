@@ -161,7 +161,7 @@ You should see:
 ID Name Status
 001 Windows-Agent Active
 ```
-Or  you could just check directly in the wazuh maneger dashboard.
+Or  you could just check directly in the #Wazu-manager# dashboard.
 
 
 
