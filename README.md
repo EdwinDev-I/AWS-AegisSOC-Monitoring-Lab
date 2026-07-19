@@ -342,6 +342,8 @@ Yep alot of issues was encounter while building this Lab, so here is a clear Tro
 
 [TroubleShooting-Guide](./Troubleshooting(Important-command).md)
 
+## Paths To Each Repository
+
 ## Repository Architecture:
 
 ```
