@@ -348,7 +348,7 @@ Yep alot of issues was encounter while building this Lab, so here is a clear Tro
 
 [Suricata](Suricata/Installation.md)
 
-[VirusTotal]()
+[VirusTotal](Virus-Total/FIM-Malware-Detection.md)
 
 [Wazuh-FIM]()
 
