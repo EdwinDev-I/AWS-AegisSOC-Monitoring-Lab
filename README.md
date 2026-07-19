@@ -350,7 +350,7 @@ Yep alot of issues was encounter while building this Lab, so here is a clear Tro
 
 [VirusTotal](Virus-Total/FIM-Malware-Detection.md)
 
-[Wazuh-FIM](Virus-Total/FIM-Malware-Detection.md)
+[Wazuh-FIM](Wazuh/Installation-guide-onAWS.md)
 
 ## Repository Architecture:
 
