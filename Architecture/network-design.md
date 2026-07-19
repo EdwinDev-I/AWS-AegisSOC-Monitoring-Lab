@@ -297,7 +297,7 @@ The next troubleshooting steps include:
 - Confirming that mirrored traffic contains the expected payload
 
 
-## Project Status Update
+# Project Status Update
 
 Current state: ✅ Working
 
