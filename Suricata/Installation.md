@@ -93,4 +93,4 @@ sudo ufw default allow outging
 
 ## Image Example:
 
-![Fast-log](./Suricata/Image/Fastlog-capture.png)
+![Fast-log](./Image/Fastlog-capture.png)
