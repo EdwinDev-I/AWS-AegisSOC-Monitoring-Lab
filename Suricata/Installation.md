@@ -1,13 +1,10 @@
-# Suricata setup Cybersecurity Labs
+# Suricata setup
 
-# Configure a firewall to block unauthorized access and allow only legitimate traffic.
-## For Linux Servers.
-
-## Step1: Install ufw(Uncomplicated Firewall)
+## Step1: Install ufw(Uncomplicated Firewall) To Work With Suricata
 ```
  sudo apt-get update
 ```
-##then
+then
 ```
 sudo apt install ufw
 ```
@@ -17,11 +14,9 @@ sudo ufw enable
 ```
 ## Step3: Default security rules:
 ```
- sudo ufw default deny incoming
+sudo ufw default deny incoming
+sudo ufw default allow outging
 ```
-##then
-
-   sudo ufw default allow outging
 
 ## Step4: Allow required service
  ```bash
@@ -95,3 +90,7 @@ sudo ufw enable
 ```
 
 ### it should be (running) now  😁
+
+## Image Example:
+
+![Fast-log](./Suricata/Image/Fastlog-capture.png)
