@@ -91,6 +91,6 @@ sudo ufw default allow outging
 
 ### it should be (running) now  😁
 
-## Image Example:
+## Image Example Of Sample Attack Read With Fast-log:
 
 ![Fast-log](./Image/Fastlog-capture.png)
