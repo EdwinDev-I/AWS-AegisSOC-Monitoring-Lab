@@ -344,9 +344,9 @@ Yep alot of issues was encounter while building this Lab, so here is a clear Tro
 
 ## Paths To Each Repository:
 
-[Network-Architecture](../Architecture/network-design.md)
+[Network-Architecture](./Architecture/network-design.md)
 
-[Suricata](Architecture/network-design.md)
+[Suricata](Suricata/Installation.md)
 
 [VirusTotal]()
 
