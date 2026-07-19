@@ -358,8 +358,9 @@ AWS-AegisSOC-Monitoring-Lab/
 │   └── network-design.md
 │
 ├── Suricata/
+│   ├── Image
 │   ├── Installation.md
-│   └── configuration.xml
+│   └── configuration.md
 │   
 │
 ├── virustotal/
